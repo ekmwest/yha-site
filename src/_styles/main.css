@@ -19,18 +19,6 @@ body {
    Main
    ========================================================================== */
 
-.main {
-    /* padding-top: 50px; */
-    /* Same value as header height */
-    /* background-color: #fff;
-    background-color: #f2f4fa;
-    background-color: #f7f7f7; */
-    /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
-    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%); */
-}
-
 .main h1 {
     max-width: 960px;
     font-family: "Raleway", sans-serif;

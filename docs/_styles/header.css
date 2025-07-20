@@ -2,29 +2,6 @@
    Header
    ========================================================================== */
 
-.header {
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    background-color: #fffffff4;
-    background-color: #f2f4fa;
-    background-color: #f7f7f7;
-    background-color: #fff;
-    backdrop-filter: blur(4px);
-    border-bottom: 1px solid transparent; */
-    /* border-bottom: 1px solid rgba(0, 0, 0, .2); */
-    /* transition: background-color .2s; */
-}
-
-/* .SCROLLED .header {
-    border-bottom: 1px solid rgba(0, 0, 0, .2);
-    background-color: #fffffff4;
-} */
-
 
 
 
