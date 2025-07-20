@@ -1,0 +1,62 @@
+html {
+    scrollbar-width: thin;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    line-height: 1.5;
+    font-size: 18px;
+    overflow-y: scroll;
+    background-color: #f0f0f0;
+    background-color: #f3f3f3;
+}
+
+
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+.main {
+    /* padding-top: 50px; */
+    /* Same value as header height */
+    /* background-color: #fff;
+    background-color: #f2f4fa;
+    background-color: #f7f7f7; */
+    /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%); */
+}
+
+.main h1 {
+    max-width: 960px;
+    font-family: "Raleway", sans-serif;
+    font-family: "Playfair Display", sans-serif;
+    font-family: "Merriweather", sans-serif;
+    color: #222;
+    color: #000;
+    font-weight: 900;
+    margin: 1.5em auto .2em;
+    text-align: center;
+    text-wrap: balance;
+    font-size: 64px;
+    line-height: 1.1;
+
+}
+
+.main .preamble {
+    text-align: center;
+    margin-bottom: 2em;
+    max-width: 640px;
+    line-height: 1.2;
+    margin: 0 auto 3em;
+    font-size: 24px;
+}
+
+.main .text-content {
+    max-width: 640px;
+    margin: 0 auto;
+}

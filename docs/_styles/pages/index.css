@@ -1,0 +1,238 @@
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+
+.index__hero {
+    max-width: 1024px;
+    margin: 0 auto 8em;
+}
+
+.index__hero img {
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06),
+        /* border */
+        0 10px 40px -20px rgba(0, 0, 0, 0.25),
+        0 20px 60px -25px rgba(0, 0, 0, 0.2),
+        0 20px 20px -30px rgba(0, 0, 0, 0.1),
+        0 40px 30px -40px rgba(0, 0, 0, 0.2),
+        0 60px 40px -50px rgba(0, 0, 0, 0.1),
+        0 16px 32px rgba(0, 0, 0, 0.04);
+}
+
+
+
+/* ==========================================================================
+   Feature Highlights
+   ========================================================================== */
+
+.index__feature-highlights {
+    /* display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-bottom: 4em; */
+    gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+    max-width: 1280px;
+    margin: 0 auto 8em;
+}
+
+
+
+/* ==========================================================================
+   Feature Highlight
+   ========================================================================== */
+
+.index__feature-highlight {
+    /* width: 320px; */
+    padding: 40px 12px 46px;
+    border-radius: 16px;
+    background-color: hsl(210deg 77% 40%);
+    background-color: #fafafa;
+    background-color: #fff;
+    box-shadow: 0 2px 4px #1436371a;
+    /* color: #fff; */
+    /* box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff; */
+}
+
+.index__feature-highlight-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 12px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    background-color: #f5f5f5;
+    /* background-color: #ebf8ff;
+    background-color: #e0f4ff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+}
+
+.index__feature-highlight svg {
+    color: red;
+    color: hsl(210deg 77% 40%);
+    color: hsl(210deg 95.63% 43.55%);
+    /* color: #000; */
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
+
+.index__feature-highlight h3 {
+    text-align: center;
+    margin: 0 0 6px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+}
+
+.index__feature-highlight p {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #909090;
+    color: #888;
+    line-height: 1.2;
+}
+
+
+
+/* ==========================================================================
+   Features
+   ========================================================================== */
+
+.index__features {
+    /* display: grid;
+    gap: 48px 24px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto 4em; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+
+/* ==========================================================================
+   Features Container
+   ========================================================================== */
+
+.index__features-container {
+    /* column-gap: 32px; */
+    gap: 64px;
+    column-width: 320px;
+}
+
+
+
+/* ==========================================================================
+   Feature
+   ========================================================================== */
+
+.index__feature {
+    display: inline-block;
+    margin-top: 32px;
+}
+
+
+
+/* ==========================================================================
+   Feature
+   ========================================================================== */
+
+.index__feature h3 {
+    margin: 0;
+    font-family: "Merriweather", sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.index__feature p {
+    margin: 0;
+}
+
+
+
+/* ==========================================================================
+   Reasons
+   ========================================================================== */
+
+.index__reasons {
+    display: flex;
+    align-items: center;
+    background-color: hsl(210deg 77% 40%);
+    background: linear-gradient(hsl(210deg 78.33% 43.65%), hsl(210deg 100% 37.61%));
+    background: linear-gradient(to left bottom, hsl(210, 70%, 54%), hsl(210deg 100% 37.61%));
+    color: white;
+    margin: 5em auto;
+    padding: 4em 0 4em;
+}
+
+.index__reasons-left,
+.index__reasons-right {
+    width: 50%;
+    padding: 0 2em;
+}
+
+.index__reasons-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.index__reasons h3 {
+    font-size: 3.8em;
+    font-weight: 600;
+    font-family: "Merriweather", sans-serif;
+    line-height: 1;
+}
+
+.index__reason {
+    margin-bottom: 1em;
+}
+
+.index__reason:last-child {
+    margin-bottom: 0;
+}
+
+.index__reason h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0 0 .2em;
+}
+
+.index__reason p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.3;
+    max-width: 480px;
+}
+
+
+
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+
+.index__contact {
+    background-color: #fff;
+    padding: 5em 0;
+    margin: 5em 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
