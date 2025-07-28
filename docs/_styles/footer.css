@@ -3,7 +3,7 @@
    ========================================================================== */
 
 footer {
-    margin-top: 4em;
+    margin: 1em 0;
     padding: 2em 0 5em;
 }
 
@@ -43,9 +43,11 @@ footer {
 
 .footer__nav {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
     gap: 12px;
     justify-content: center;
-    margin-bottom: 2em;
+    margin: 0 auto 2em;
 }
 
 .footer__link {
@@ -56,6 +58,7 @@ footer {
     background-color: hsl(210deg 77% 40%);
     background-color: #666;
     background-color: #e5e5e5;
+    /* background-color: #fff; */
     border-radius: 32px;
     padding: 12px 30px 13px;
     text-decoration: none;
