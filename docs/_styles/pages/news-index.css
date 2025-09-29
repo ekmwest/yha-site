@@ -1,0 +1,36 @@
+.news-index {
+    padding: 2em 0;
+}
+
+.news-index__list {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.news-index__list a {
+    display: block;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 1em;
+    margin: 1em;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color .08s;
+}
+
+.news-index__list a:active {
+    background-color: rgba(0, 0, 0, .01);
+}
+
+.news-index__list a span {
+    display: block;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.news-index__list a time {
+    display: block;
+    color: rgba(0, 0, 0, .6);
+    font-size: .9em;
+    font-family: "Merriweather", sans-serif;
+}

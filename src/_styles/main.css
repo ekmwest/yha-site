@@ -21,18 +21,15 @@ body {
 
 .main h1 {
     max-width: 960px;
-    font-family: "Raleway", sans-serif;
-    font-family: "Playfair Display", sans-serif;
     font-family: "Merriweather", sans-serif;
     color: #222;
     color: #000;
     font-weight: 900;
-    margin: 1.5em auto .2em;
+    margin: 96px auto 12px;
     text-align: center;
     text-wrap: balance;
     font-size: 64px;
     line-height: 1.1;
-
 }
 
 .main .preamble {

@@ -51,18 +51,18 @@ footer {
 }
 
 .footer__link {
-    color: #fff;
     color: #000;
     font-weight: 600;
-    background-color: #000;
-    background-color: hsl(210deg 77% 40%);
-    background-color: #666;
     background-color: #e5e5e5;
-    /* background-color: #fff; */
     border-radius: 32px;
     padding: 12px 30px 13px;
     text-decoration: none;
     line-height: 1;
+    transition: background-color .08s;
+}
+
+.footer__link:active {
+    background-color: #ccc;
 }
 
 

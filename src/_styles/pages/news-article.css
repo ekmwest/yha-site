@@ -1,0 +1,28 @@
+.news-article {
+    background-color: #fff;
+    max-width: 690px;
+    padding: 64px 84px 32px;
+    margin: 64px auto 0;
+    border-radius: 24px;
+}
+
+.news-article h1 {
+    text-align: left;
+    font-size: 32px;
+    margin: 0 auto 8px;
+}
+
+.news-article time {
+    display: block;
+    font-family: "Merriweather", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .5);
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid rgba(0, 0, 0, .16);
+}
+
+.news-article__youtube iframe {
+    display: block;
+    margin: 0 auto;
+}
