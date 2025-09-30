@@ -3,8 +3,9 @@
    ========================================================================== */
 
 footer {
-    margin: 1em 0;
+    margin: 4em 0;
     padding: 2em 0 5em;
+    border-top: 1px solid #ccc;
 }
 
 
@@ -43,26 +44,39 @@ footer {
 
 .footer__nav {
     display: flex;
-    flex-wrap: wrap;
     max-width: 800px;
-    gap: 12px;
+    gap: 56px;
     justify-content: center;
-    margin: 0 auto 2em;
+    margin: 0 auto 1.4em;
 }
+
+
+
+/* ==========================================================================
+   Icon
+   ========================================================================== */
+
+.footer__icon-link {
+    color: hsl(210deg 77% 40%);
+}
+
+.footer__icon-link svg {
+    width: 42px;
+    height: 42px;
+}
+
+
+
+/* ==========================================================================
+   Link
+   ========================================================================== */
 
 .footer__link {
-    color: #000;
-    font-weight: 600;
-    background-color: #e5e5e5;
-    border-radius: 32px;
-    padding: 12px 30px 13px;
+    display: block;
+    color: rgba(0, 0, 0, .8);
+    font-size: .9em;
+    padding: .04em;
     text-decoration: none;
-    line-height: 1;
-    transition: background-color .08s;
-}
-
-.footer__link:active {
-    background-color: #ccc;
 }
 
 
