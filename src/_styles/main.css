@@ -22,7 +22,6 @@ body {
 .main h1 {
     max-width: 960px;
     font-family: "Merriweather", sans-serif;
-    color: #222;
     color: #000;
     font-weight: 900;
     margin: 96px auto 12px;
@@ -32,12 +31,20 @@ body {
     line-height: 1.1;
 }
 
+.is-mobile .main h1 {
+    font-size: 32px;
+}
+
 .main .preamble {
     text-align: center;
     max-width: 640px;
     line-height: 1.2;
     margin: 0 auto;
     font-size: 24px;
+}
+
+.is-mobile .main .preamble {
+    font-size: 20px;
 }
 
 .main .text-content {

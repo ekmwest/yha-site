@@ -10,24 +10,23 @@
    ========================================================================== */
 
 .header__nav {
-    max-width: 1280px;
     max-width: 1048px;
     margin: 24px auto;
     background-color: #fff;
-    border-radius: 32px;
     border-radius: 48px;
     flex-grow: 1;
-    padding: 16px 18px;
-    padding: 24px 22px;
     padding: 22px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, .04);
     box-shadow:
         0 0 0 1px rgba(0, 0, 0, 0.02),
         0 0.2em 1.2em -0.4em rgba(0, 0, 0, 0.2),
         0 0.4em 2.0em -0.8em rgba(0, 0, 0, 0.3);
+}
+
+.is-mobile .header__nav {
+    padding: 14px 16px;
 }
 
 
@@ -49,11 +48,14 @@
 }
 
 .header__logo svg {
-    width: 32px;
-    height: 32px;
     width: 36px;
     height: 36px;
     flex-shrink: 0;
+}
+
+.is-mobile .header__logo svg {
+    width: 24px;
+    height: 24px;
 }
 
 .header__logo span {
@@ -64,19 +66,38 @@
     font-size: 18px;
 }
 
+.is-mobile .header__logo span {
+    display: none;
+}
+
 
 
 /* ==========================================================================
-   Links
+   Link
    ========================================================================== */
 
-.header__links a {
+.header__link {
     padding: 1em;
-    font-size: 16px;
     font-size: 18px;
     font-weight: 600;
     color: #000;
     text-decoration: none;
+}
+
+.is-mobile .header__link {
+    font-size: 14px;
+}
+
+.header__link-mobile {
+    display: none;
+}
+
+.is-mobile .header__link-mobile {
+    display: unset;
+}
+
+.is-mobile .header__link-desktop {
+    display: none;
 }
 
 
@@ -85,14 +106,33 @@
    Apply Link
    ========================================================================== */
 
-.header__links .header__apply-link {
+.header__apply-link {
     color: #fff;
-    background-color: hsl(210deg 77% 44%);
-    background-color: hsl(210deg 70% 44%);
+    font-weight: 600;
     background-color: hsl(210deg 77% 45%);
     text-decoration: none;
-    border-radius: 20px;
     border-radius: 22px;
-    padding: .5em 1.3em;
     padding: .6em 1.4em;
+}
+
+.is-mobile .header__apply-link {
+    border-radius: 22px;
+    padding: .4em 1em;
+    font-size: 14px;
+}
+
+.header__apply-link span {
+    color: #fff;
+}
+
+.header__apply-link-mobile {
+    display: none;
+}
+
+.is-mobile .header__apply-link-mobile {
+    display: unset;
+}
+
+.is-mobile .header__apply-link-desktop {
+    display: none;
 }

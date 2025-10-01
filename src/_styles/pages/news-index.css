@@ -26,6 +26,8 @@
     display: block;
     font-weight: 600;
     font-size: 1.1em;
+    line-height: 1.1;
+    margin-bottom: 6px;
 }
 
 .news-index__list a time {

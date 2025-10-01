@@ -44,10 +44,14 @@ footer {
 
 .footer__nav {
     display: flex;
+    flex-direction: column;
     max-width: 800px;
     gap: 56px;
+    gap: 0px;
     justify-content: center;
     margin: 0 auto 1.4em;
+    margin: 0 auto 1em;
+    text-align: center;
 }
 
 
@@ -61,8 +65,8 @@ footer {
 }
 
 .footer__icon-link svg {
-    width: 42px;
-    height: 42px;
+    width: 36px;
+    height: 36px;
 }
 
 
@@ -72,12 +76,24 @@ footer {
    ========================================================================== */
 
 .footer__link {
-    display: block;
+    /* display: block; */
     color: rgba(0, 0, 0, .8);
     font-size: .9em;
-    padding: .04em;
+    padding: .1em;
     text-decoration: none;
 }
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* ==========================================================================
+   Link Separator
+   ========================================================================== */
+
+
 
 
 
